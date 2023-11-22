@@ -4,7 +4,7 @@ import '../Temporadas/temporadas.css'
 import NumeroTemporada from "./NumeroTemporada/NumeroTemporada"
 import TarjetaCapitulo from "../TarjetaCapitulo/TarjetaCapitulo"
 import CarouselTarjetasCapitulos from "../CarouselTarjetasCapitulos/CarouselTarjetasCapitulos"
-import { peticionCapituloTemporada} from "@/app/peticionesFetch/page"
+import { peticionCapituloTemporada} from "@/components/peticionesFetch/page"
 const Temporadas = ({ data }) => {
     let seasons = data.seasons
     let id = data.id

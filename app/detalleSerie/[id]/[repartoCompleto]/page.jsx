@@ -1,7 +1,7 @@
 import HeaderReparto from "@/components/HeaderReparto/HeaderReparto";
 import '../[repartoCompleto]/repartoCompleto.css';
 import TarjetaActor from "@/components/TarjetaActor/TarjetaActor";
-import { RepartoSerie, buscarPelicula } from "@/app/peticionesFetch/page";
+import { RepartoSerie, buscarPelicula } from "@/components/peticionesFetch/page";
 import Link from "next/link";
 
 async function repartoCompletoSerie({ params }) {

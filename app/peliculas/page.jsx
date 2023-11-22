@@ -2,7 +2,7 @@ import React from 'react'
 import TarjetaSerie from '../../components/TarjetaSerie/TarjetaSerie'
 import '../series/series.css'
 import FondoDinamico from '@/components/FondoDinamico/FondoDinamico'
-import {peticionPeliculasSeViene, peticionPeliculasTendencia, peticionPeliculaspPopulares, } from '../peticionesFetch/page'
+import {peticionPeliculasSeViene, peticionPeliculasTendencia, peticionPeliculaspPopulares, } from '../../components/peticionesFetch/page'
 import Link from 'next/link'
 
 async function Peliculas () {

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { TextField } from '@mui/material';
 import { useFormik } from 'formik';
 import '../Buscador/buscador.css'
-import { Search } from '@/app/peticionesFetch/page';
+import { Search } from '@/components/peticionesFetch/page';
 import MapeoSectionSeries from '../MapeoSectionSeries/MapeoSectionSeries';
 
 const Buscador = (  ) => {

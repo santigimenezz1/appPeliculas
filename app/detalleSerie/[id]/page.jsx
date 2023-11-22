@@ -1,4 +1,4 @@
-import { RepartoSerie, buscarPelicula, buscarVideo } from "@/app/peticionesFetch/page";
+import { RepartoSerie, buscarPelicula, buscarVideo } from "@/components/peticionesFetch/page";
 import React from "react";
 import DetalleSerie from "../page";
 import CarouselTarjetasCapitulos from "@/components/CarouselTarjetasCapitulos/CarouselTarjetasCapitulos";

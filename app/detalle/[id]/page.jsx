@@ -2,7 +2,7 @@
 import Reparto from "@/app/reparto/page"
 import Detalle from "../page"
 import RepartoActores from "@/components/RepartoActores/RepartoActores"
-import { RepartoPelicula, buscarPelicula, buscarVideo } from "@/app/peticionesFetch/page"
+import { RepartoPelicula, buscarPelicula, buscarVideo } from "@/components/peticionesFetch/page"
 import LoadingReparto from "./loading";
 async function Prueba({ params }) {
   let data = await buscarPelicula("movie" ,params.id);

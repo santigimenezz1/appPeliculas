@@ -2,7 +2,7 @@
 import React from 'react'
 import './fondoDinamico.css'
 import CarouselTarjetasSerie from '../CarouselTarjetasSerie/CarouselTarjetasSerie'
-import { peticionPeliculaspPopulares } from '@/app/peticionesFetch/page'
+import { peticionPeliculaspPopulares } from '@/components/peticionesFetch/page'
 import CarouselTarjetasPelicula from '../CarouselTarjetasPelicula/CarouselTarjetasPelicula'
 
 async function FondoDinamico () {

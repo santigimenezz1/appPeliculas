@@ -1,6 +1,6 @@
 import CarouselTarjetasSerie from '@/components/CarouselTarjetasSerie/CarouselTarjetasSerie'
 import '../[name]/colecciones.css'
-import { BuscarColl, Search, SearchColeccion, buscarCollec, peticionPeliculasSeViene } from '../../peticionesFetch/page'
+import { BuscarColl, Search, SearchColeccion, buscarCollec, peticionPeliculasSeViene } from '../../../components/peticionesFetch/page'
 import info from '../infoColeccion'
 import TarjetaSerie from '@/components/TarjetaSerie/TarjetaSerie'
 import PeticionesColecciones from '@/components/PeticionesColecciones/PeticionesColecciones'

@@ -1,5 +1,5 @@
 "use client"
-import { peticionCapituloTemporada } from "@/app/peticionesFetch/page"
+import { peticionCapituloTemporada } from "@/components/peticionesFetch/page"
 import React, { useState } from "react"
 import '../NumeroTemporada/numeroTemporada.css'
 import { useScrollTrigger } from "@mui/material"

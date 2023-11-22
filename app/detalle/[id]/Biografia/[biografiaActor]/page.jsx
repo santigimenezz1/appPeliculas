@@ -1,7 +1,7 @@
  "use client"
 import TarjetaBiografia from '@/components/TarjetaBiografia/TarjetaBiografia'
 import '../[biografiaActor]/biografiaActor.css'
-import { peticionPersonaBiografia, peticionTrabajosActor } from '@/app/peticionesFetch/page'
+import { peticionPersonaBiografia, peticionTrabajosActor } from '@/components/peticionesFetch/page'
 import Link from 'next/link'
 import BotonVolver from '@/components/BotonVolver/BotonVolver'
 import LoadingBiografia from './loading'

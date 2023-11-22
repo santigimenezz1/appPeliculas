@@ -1,6 +1,6 @@
 "use client"
 import './biografia.css'
-import { peticionPersonaBiografia, peticionTrabajosActor } from '@/app/peticionesFetch/page'
+import { peticionPersonaBiografia, peticionTrabajosActor } from '@/components/peticionesFetch/page'
 import Link from 'next/link'
 import BotonVolver from '@/components/BotonVolver/BotonVolver'
 import TarjetaBiografia from '@/components/TarjetaBiografia/TarjetaBiografia'

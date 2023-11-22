@@ -1,4 +1,4 @@
-import { peticionSeriesEnElAire, peticionSeriesPopulares, peticionSeriesTendencia } from "@/app/peticionesFetch/page"
+import { peticionSeriesEnElAire, peticionSeriesPopulares, peticionSeriesTendencia } from "@/components/peticionesFetch/page"
 import React from "react"
 import TarjetaSerie from "../TarjetaSerie/TarjetaSerie"
 import '../../app/series/series.css'

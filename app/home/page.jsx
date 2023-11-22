@@ -3,7 +3,7 @@ import CarouselTarjetasPelicula from "@/components/CarouselTarjetasPelicula/Caro
 import CarouselTarjetasSerie from "@/components/CarouselTarjetasSerie/CarouselTarjetasSerie"
 import FondoInteractivo from "@/components/FondoInteractivo/FondoInteractivo"
 import TarjetasColeccion from "@/components/TarjetasColeccion/TarjetasColeccion"
-import { peticionPeliculasNuevas, peticionPeliculasSeViene, peticionPeliculasTendencia, peticionPeliculaspPopulares } from "../peticionesFetch/page"
+import { peticionPeliculasNuevas, peticionPeliculasSeViene, peticionPeliculasTendencia, peticionPeliculaspPopulares } from "../../components/peticionesFetch/page"
 
 export default async function Home() {
   

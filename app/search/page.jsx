@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { TextField } from '@mui/material';
 import { useFormik } from 'formik';
-import { Search } from '@/app/peticionesFetch/page';
+import { Search } from '@/components/peticionesFetch/page';
 import TarjetaSerie from '@/components/TarjetaSerie/TarjetaSerie';
 import '../search/buscar.css'
 import Link from 'next/link';

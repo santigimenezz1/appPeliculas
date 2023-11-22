@@ -1,4 +1,4 @@
-import { buscarPelicula } from "@/app/peticionesFetch/page"
+import { buscarPelicula } from "@/components/peticionesFetch/page"
 import Link from "next/link"
 
 async function TarjetaBiografia ( {trabajo} ){
